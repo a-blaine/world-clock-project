@@ -6,21 +6,20 @@ body {
 }
 
 select {
-  border-radius: 6px;
   display: block;
   font-size: 16px;
-  padding: 10px;
   width: 100%;
-}
-
-h1 {
-  font-size: 42px;
-  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 h1,
 footer {
   text-align: center;
+}
+
+h1 {
+  font-size: 42px;
 }
 
 h2 {
@@ -30,17 +29,22 @@ h2 {
 
 .container {
   background-color: #ffffff;
-  border-radius: 6px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: block;
   margin: 60px auto 20px;
   padding: 20px;
   width: 600px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
 }
 
 .container a {
   text-decoration: none;
+  font-size: 16px;
   font-weight: bold;
+}
+
+.container a:hover {
+  color: rgb(145, 105, 182);
 }
 
 .city {
@@ -56,9 +60,9 @@ h2 {
 }
 
 .date {
-  font-size: 16px;
-  margin-top: 4px;
   opacity: 0.7;
+  margin-top: 4px;
+  font-size: 16px;
 }
 
 .time {
