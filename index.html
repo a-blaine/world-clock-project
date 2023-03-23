@@ -10,7 +10,34 @@
   <body>
     <div class="container">
       <h1>World clock</h1>
+      <select id="city-menu">
+        <option value="">Select a city...</option>
+        <option value="Europe/London">Brussels</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Africa/Cairo">Cairo</option>
+        <option value="America/New_York">New York</option>
+      </select>
+      <div id="cities-container">
+        <div class="city">
+          <div class="date">
+            <h2>London</h2>
+            July 4th 2023
+          </div>
+          <div class="time">4:14:14 AM</div>
+        </div>
+        <div class="city">
+          <div class="date">
+            <h2>Shanghai</h2>
+            July 4th 2023
+          </div>
+          <div class="time">4:14:14 AM</div>
+        </div>
+      </div>
     </div>
+    <footer>
+      This project is made by <strong>Ashley Blaine</strong> and is
+      <a href=""> open sourced on GitHub</a>
+    </footer>
     <script src="javascript/script.js"></script>
   </body>
 </html>

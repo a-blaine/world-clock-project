@@ -1,5 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  background-color: rgb(224, 208, 238);
+  font-family: Ubuntu;
+}
+
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+select {
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+}
+
 .container {
-  background-color: blueviolet;
-  margin: 60px auto;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 15px rgba(158, 157, 157, 0.589);
+  margin: 60px auto 20px;
+  padding: 20px;
   width: 600px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: all dashed rgba(193, 192, 192, 0.4);
+}
+
+.date {
+  margin: 20px 0;
+  line-height: ;
+}
+
+.time {
+  font-size: 48px;
+  vertical-align: middle;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 14px;
+  opacity: 80%;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: 600;
 }
